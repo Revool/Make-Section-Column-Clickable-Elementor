@@ -64,6 +64,9 @@ class Make_Section_Clickable_Setup {
         'label'       => __('Link', 'make-section-clickable-elementor'),
         'type'        => Controls_Manager::URL,
         'placeholder' => 'https://example.com',
+        'dynamic'     => [
+          'active' => true,
+        ],
       ]
     );
 
